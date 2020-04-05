@@ -1,0 +1,152 @@
+header{
+  display: grid;
+    grid-area: header;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+body{
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+button{
+   grid-column-end: 4;
+    margin-left: 50%;
+    border: 1px solid #28a6ff;
+    height: 40px;
+    width: 160px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #28a6ff;
+    margin-top: 20px;
+
+}
+h1{
+    grid-column-start: 1;
+    font-family: sans-serif;
+    font-weight: 200;
+
+}
+#text{
+    grid-column-start: 2;
+    font-size: 10px;
+    flex-flow: row;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: 30%;
+
+}
+.slash{
+    font-size: 30px;
+    font-family: bahnshhrift light;
+
+}
+.popular{
+    color: #28a6ff;
+
+}
+.property{
+    border: 2px solid lightgray;
+    border-radius: 4px;
+     position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+    height: 500px;
+    background-color: white;
+}
+h3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+.bed{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+#wrapper{
+    display: grid;
+  grid-template-columns: 1fr;
+}
+main{
+       display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 20px;
+    grid-row-gap: 30px;
+    grid-auto-rows: 1fr;
+}
+.button{
+    border: 1px solid #28a6ff;
+    background-color: #28a6ff;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 100%;
+    margin: 0px;
+    border-radius: 0px;
+     display: block;
+  margin-top: auto;
+    position: relative;
+    grid-row-start: 5;
+}
+.feet{
+   display: flex;
+    flex-flow: column;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-left: 30px;
+    word-spacing: 0px;
+
+}
+.baths{
+    display: flex;
+    flex-flow: column;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-left: 10px;
+    border-right: 1px solid #d0d0d0;
+    width: 110px;
+}
+.beds{
+     display: flex;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    flex-flow: column;
+    margin-left: 10px;
+    border-right: 1px solid #d0d0d0;
+    width: 110px;
+}
+.bed,.bath,.squares{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.img{
+     grid-column-start: 1;
+    grid-column-end: 4;
+    width:100%;
+    height: 200px;
+}
+.img:hover{
+   filter: blur(5px);
+
+}
+.text{
+    display: flex;
+    flex-flow: row;
+    grid-column-start: 1;
+    grid-column-end:4;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    background-color:#f1f1f1;
+    word-spacing: 20px;
+    text-align: center;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: dimgrey;
+}
